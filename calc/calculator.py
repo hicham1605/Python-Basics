@@ -7,7 +7,7 @@ def Subtract(x, y):
 def Multiply(x, y):
     return x * y
 
-def Squard(x, y):
+def Square(x, y):
     return x ** y
 
 def Divide(x, y):
@@ -21,7 +21,7 @@ def CAlculator():
     print("1: Sum")
     print("2: Subtract")
     print("3: Multiply")
-    print("4: Squard")
+    print("4: Square")
     print("5: Divide")
 
     choice = input("Enter number of your operation: ")
@@ -41,7 +41,7 @@ def CAlculator():
         elif choice == '3':
             print(f"{a} * {b} = {Multiply(a, b)}")
         elif choice == '4':
-            print(f"{a} ** {b} = {Squard(a, b)}")
+            print(f"{a} ** {b} = {Square(a, b)}")
         elif choice == '5':
             print(f"{a} / {b} = {Divide(a, b)}")
         else:
